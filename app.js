@@ -25,5 +25,5 @@ function kittyBack() {
   petCount.innerHTML=counter
   catButton.disabled = false
   catStatus.innerHTML="Purrrrrr"
-  catPic.src="https://img.buzzfeed.com/buzzfeed-static/static/2016-01/20/15/enhanced/webdr05/enhanced-28545-1453322894-9.jpg"
+  catPic.src="https://acm202.files.wordpress.com/2016/09/cats-politics-tn.jpg"
 }
