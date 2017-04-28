@@ -8,7 +8,7 @@ function CatController() {
     for (var i = 0; i < listOfCats.length; i++) {
       var cat = listOfCats[i]
       template += `
-    <div>
+    <div> 
       <img id="catPic${cat.id}" src="${cat.imgUrl}" alt="meow">
       <button 
         type="button" 
