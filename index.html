@@ -18,13 +18,23 @@
     <button 
       type="button" 
       id="catButton" 
-      onclick="petCat(whiskers)">
+      onclick="app.controllers.catController.petCat(whiskers)">
         pet 
       </button>
 <button type="button" onclick="kittyBack(whiskers)">Kitty! Come back!!!</button>
     <h1 id="petCount">0</h1>
     <h2 id="catStatus">Purrrrrrr</h2>
   </div>-->
+  
+  <!--LOAD EXTERNAL LIBRARIES-->
+
+  <!--SERVICES-->
+  <script src="cat-service.js"></script>
+  
+  <!--CONTROLLERS-->
+  <script src="cat-controller.js"></script>
+
+  <!--INITIALIZE APPLICATION-->
   <script src="app.js"></script>
 </body>
 
